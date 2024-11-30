@@ -26,6 +26,16 @@ docker build -t <app-name> .
 docker run -d -p 5000:5000 --name <container-name> <app-name>
 ```
 
+4. Stop the docker container
+```
+docker stop <container-name>
+```
+
+5. Start/Re-Start docker container
+```
+docker start <container-name>
+```
+
 ### To run the code through the python file
 1. Navigate to the repository directory
 
