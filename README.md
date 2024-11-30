@@ -1,4 +1,4 @@
-# Fetch-Receipt-Processor-Challenge
+# Fetch - Receipt Processor Challenge
 
 ## Description
 This repository contains the solution to the coding assessment by **[Fetch](https://fetch.com/)**.
