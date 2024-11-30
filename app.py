@@ -38,7 +38,7 @@ def process_receipt():
     return jsonify({"id": receipt_id}), 201
 
 
-@app.route("/receipts/<string:receipt_id>/point", methods=["GET"])
+@app.route("/receipts/<string:receipt_id>/points", methods=["GET"])
 def get_points(receipt_id: str) -> Dict[str, int]:
     """
     Get points for a given receipt id
