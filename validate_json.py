@@ -12,7 +12,6 @@ class JSONValidation:
         """
         Validate the payload
         :param data: JSON payload
-        :return: Tuple with boolean value and message about the validity of the payload
         """
         required_outer_fields: List[str] = ["retailer", "purchaseDate", "purchaseTime", "items", "total"]
         required_inner_fields: List[str] = ["shortDescription", "price"]
